@@ -30,7 +30,7 @@ static void normalizeHoverSlopeSpeed(f32 floorPos) {
 
     player->mTranslation.y = floorPos;
 
-    if (!BetterSMS::areExploitsPatched())
+    if (true) //!BetterSMS::areExploitsPatched()
         return;
 
     if (!(player->mState == static_cast<u32>(TMario::STATE_HOVER)))
