@@ -41,7 +41,7 @@
 #include "p_settings.hxx"
 #include <libs/scoped_ptr.hxx>
 
-#define BETTER_SMS_CARD_ERROR_VERSION_MISMATCH (s32)(-1)
+#define BETTER_SMS_CARD_ERROR_VERSION_MISMATCH (s32)(-1) //s32 !!!
 
 struct SettingMetaInfo {
     const char *mID;
